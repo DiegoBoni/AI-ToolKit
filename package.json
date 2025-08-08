@@ -1,7 +1,7 @@
 {
   "name": "com.boninerd.aitoolkit",
   "version": "1.0.0",
-  "displayName": "BoniNerd AI-Toolkit",
+  "displayName": "AI-Toolkit",
   "description": "La navaja suiza de IA para Unity. Integra Chat, Vision, DALL-E 3, TTS, Whisper y más, directamente desde la API de OpenAI.",
   "unity": "2022.3",
   "author": {
