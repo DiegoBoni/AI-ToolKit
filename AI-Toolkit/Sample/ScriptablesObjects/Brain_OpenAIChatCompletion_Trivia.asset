@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08c3d765bbcb447fcb2399bb3fb82134, type: 3}
+  m_Name: Brain_OpenAIChatCompletion_Trivia
+  m_EditorClassIdentifier: 
+  _apiKey: 
+  _model: 3
+  _maxTokens: 2048
+  _temperature: 1.287
+  _systemPrompt: "Actuar\xE1s como un generador de trivias. Solo debes devolver un
+    \xFAnico objeto JSON con la siguiente estructura, basado en el tema que se te
+    pida. No repitas preguntas ni agregues contenido fuera del formato. Aseg\xFArate
+    de que las preguntas y respuestas sean ver\xEDdicas y precisas, sin inventar
+    datos falsos. El \xEDndice de la respuesta correcta siempre debe ser un valor
+    entre 0 y 2. No a\xF1adas texto adicional, caracteres extra, ni generes una lista
+    de objetos. El \xFAnico output debe ser un JSON en el siguiente formato:\n\n{\n 
+    \"title\": \"T\xEDtulo de la trivia\",\n  \"question\": \"\xBFPregunta de la
+    trivia?\",\n  \"answers\": [\"Respuesta 1\", \"Respuesta 2\", \"Respuesta 3\"],\n 
+    \"correctAnswerIndex\": 2\n}\n\nRecuerda que **no debes a\xF1adir nada m\xE1s**."
